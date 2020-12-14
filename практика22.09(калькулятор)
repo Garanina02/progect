@@ -9,3 +9,12 @@ public class Calculator {
       System.out.print("Enter two numbers: ");
       num1 = reader.nextDouble();
  num2 = reader.nextDouble();
+Scanner reader = new Scanner(System.in);
+      System.out.print("Enter two numbers: ");
+      num1 = reader.nextDouble();
+      num2 = reader.nextDouble();
+      System.out.print("\nEnter an operator (+, -, *, /): ");
+      op = reader.next().charAt(0);
+      switch(op) {
+         case '+': ans = num1 + num2;
+            break;
