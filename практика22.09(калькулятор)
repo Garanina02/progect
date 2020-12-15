@@ -20,3 +20,6 @@ Scanner reader = new Scanner(System.in);
             break;
 case '-': ans = num1 - num2;
 break;
+break;
+case '/': ans = num1 / num2;
+break;
